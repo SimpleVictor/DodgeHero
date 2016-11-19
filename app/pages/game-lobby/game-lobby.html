@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Game Lobby</ion-title>
+    <ion-buttons >
+      <button ion-button menuToggle icon-only>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="game-lobby-page">
+
+
+  <ion-grid id="game-lobby-grid">
+    <ion-row class="game-lobby-row">
+      <ion-col width-50>
+        <ion-card class="game-lobby-card">
+          <ion-card-content>
+            <ion-card-title id="the-ion-title">
+              <strong>Player 1</strong>
+            </ion-card-title>
+            <p>Lobby Test</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card class="game-lobby-card">
+          <ion-card-content>
+            <ion-card-title id="the-ion-title">
+              <strong>Player 2</strong>
+            </ion-card-title>
+            <p>Lobby Test</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="game-lobby-row">
+      <ion-col width-50>
+        <ion-card class="game-lobby-card">
+          <ion-card-content>
+            <ion-card-title id="the-ion-title">
+              <strong>Player 1</strong>
+            </ion-card-title>
+            <p>Lobby Test</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card class="game-lobby-card">
+          <ion-card-content>
+            <ion-card-title id="the-ion-title">
+              <strong>Player 2</strong>
+            </ion-card-title>
+            <p>Lobby Test</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  <button class="secondary start-button" full ion-button tappable (click)="StartGame()">Start Game</button>
+
+  </ion-grid>
+
+
+
+</ion-content>
+
